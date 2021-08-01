@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	font-family: 'Chakra Petch', sans-serif;
+	background-color: #ffb6c161;
+}
+
+header{
+
+}
+.announcement{
+	background-color: #607d8b;
+	padding: 10px 10px;
+}
+.announcement p{
+ 	color: #ffffffff;
+	font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.menu{
+	border-bottom: solid  #607d8bc4 1px;
+}
+ol{
+	margin: 0;
+	text-align: center;
+	padding: 10px 0;
+}
+ol li{
+	display: inline-block;
+}
+ol li a{
+	font-size: 25px;
+	color: #607d8b;
+	text-decoration: none;
+	padding: 8px 20px;
+	display: block;
+	border-radius: 23px;
+	border-style: solid;
+	border-color: #607d8b66;
+	border-width: 2px;
+	transition-duration: 0.5s;
+
+}
+ol li a:hover{
+	color: mediumpurple;
+	background-color: #607d8b66;
+}
+.banner-sec{
+	padding: 17px 0;
+}
+.banner{
+	width: 600px;
+	margin-left: 550px;
+	
+}
+.banner img{
+	max-width: 60%;
+	border-radius: 2px;
+	box-shadow: 0 0 15px 0 #7b008091;
+	width: 100%;
+	transition:  0 0.3s ease;
+}
+.banner img:hover{
+	box-shadow: 0 0 0 0 #7b008091;
+}
+.content.sec{
+	padding: 10px;
+}
+.content{
+	width: 95%;
+	margin: auto;
+}
+.content h1{
+	font-size: 30px;
+	margin: 0;
+	color: #607d8b;
+}
+.content p{
+	font-size: 15.5px;
+}
+.content p strong{
+	font-size: 15;
+}
